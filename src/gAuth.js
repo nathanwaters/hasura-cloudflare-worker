@@ -30,7 +30,7 @@ export async function gAuth(token) {
       body: body
     })).json();
     if (user.data.person.length == 0)
-      throw { path: "/gauth", error: "okhome user not found", code: "gauth" };
+      throw { path: "/gauth", error: "database user not found", code: "gauth" };
 
     let data = {
       "x-hasura-role": user.data.person[0].role,
