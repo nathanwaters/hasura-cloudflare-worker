@@ -5,7 +5,7 @@ Example Cloudflare Worker using Facebook-based authorization and GraphQL proxy q
 ## Prerequisites
 
 1. [Cloudflare](https://www.cloudflare.com/products/cloudflare-workers/) account with Workers enabled ($5/mth minimum).
-2. [Hasura](https://hasura.io/) GraphQL endpoint setup with `person` table, auth webhook (for GQL subscriptions) and [permissions](https://docs.hasura.io/1.0/graphql/manual/auth/basics.html) set on the `fb_id` column.
+2. [Hasura](https://hasura.io/) GraphQL endpoint setup with `person` table, auth webhook (for GQL subscriptions) and [permissions](https://docs.hasura.io/1.0/graphql/manual/auth/basics.html) set on the `fb_id` plus a user `role` column.
 
 ## Install
 
