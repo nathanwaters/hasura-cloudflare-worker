@@ -10,7 +10,7 @@ addEventListener("fetch", event => {
 /**
 
   Call function based on API request
-  https://api.okhome.ai/{}
+  https://api.yourdomain.com/{}
 
 **/
 async function handle(request) {
